@@ -1,0 +1,236 @@
+.navbarcustome {
+    position: relative;
+    margin: 0;
+    margin-top: -5% !important;
+    padding: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+}
+
+.cardmenu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border-width: 20px 5px; */
+    border-radius: .25rem;
+    /* border: 2px solid #000000; */
+    outline: 1px solid black;
+    outline-offset: -10px;
+    text-align: center;
+    /* float: left; */
+    margin: 10px;
+    height: 100%;
+}
+
+.brushfont {
+    font-family: 'Bubblegum Sans', cursive !important;
+    color: #deb150;
+    font-size: 280%;
+}
+
+.fbgimg {
+    background-image: url(assets/images/footerimage.jpg);
+    background-color: black;
+}
+
+.theme-btn {
+    margin: 0 auto;
+    border: #202127 solid 1px;
+    color: #202127;
+    /* position: absolute;
+    right: 0;
+    bottom: 0; */
+    bottom: 0px;
+}
+
+.card:hover .theme-btn {
+    border: #202127 solid 1px;
+    background: #202127;
+    color: #FFFFFF;
+}
+
+a.theme-btn {
+    /* a tag */
+    border: 1px solid #000000;
+    /* color: #deb150; */
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 40px 12px 40px;
+    position: relative;
+    overflow: hidden;
+    transition: 400ms ease;
+    transition-property: color, background;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+}
+
+a.theme-btn:hover {
+    color: #deb150;
+    background: #0c0b0a;
+}
+
+.card-body-menu {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    background-color: #deb150;
+}
+
+.square {
+    opacity: 0;
+    transform: scale(1.2);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .square {
+        transition: opacity 1.5s ease, transform 1.5s ease;
+    }
+}
+
+.square-transition {
+    opacity: 1;
+    transform: none;
+}
+
+.card-text {
+    color: #000000;
+    /* text-align: justify; */
+}
+
+
+/*------------------------------------------------------------------
+    ABOUT AREA
+-------------------------------------------------------------------*/
+
+.about-main {
+    background: #000000;
+}
+
+.pad-top-100 {
+    padding-top: 90px;
+}
+
+.pad-bottom-100 {
+    padding-bottom: 90px;
+}
+
+.pad-top-70 {
+    padding-top: 70px;
+}
+
+.pad-bottom-70 {
+    padding-bottom: 70px;
+}
+
+.block-title {
+    font-size: 52px;
+    font-family: 'nautilus_pompiliusregular';
+    font-weight: bold;
+}
+
+.about-images {
+    text-align: center;
+    position: relative;
+}
+
+.about-main h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.left-btn {
+    padding-top: 10px;
+}
+
+
+/* .about-images img {
+    border: 10px solid #920808;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+} */
+
+.about-images img {
+    border: 10px solid #920808;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    max-width: 100%;
+}
+
+.review-images img {
+    border: 10px solid #deb150;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    max-width: 80%;
+}
+
+.checked {
+    color: #deb150;
+}
+
+.unchecked {
+    color: #d4d4d4;
+}
+
+.about-inset {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/*---------------------------------------
+  About section              
+-----------------------------------------*/
+
+#about {
+    padding-top: 100px;
+}
+
+#about .col-md-4 img {
+    border-radius: 500px;
+    margin-bottom: 28px;
+}
+
+#about .col-md-4 a {
+    background: #000000;
+    border-radius: 1000px;
+    color: #ffffff;
+    padding: 6px 12px;
+    display: inline-block;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+#about .col-md-4 a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+#about .about-thumb {
+    background: #000000;
+    border-radius: 5px;
+    padding: 42px 32px;
+}
